@@ -1,0 +1,6 @@
+@import "liftr/bootstrap";
+@import "fileupload";
+
+@include load-js("bootstrap-fileupload", "bootstrap-fileupload/js/bootstrap-fileupload");
+
+@include lifted("bootstrap-fileupload");
